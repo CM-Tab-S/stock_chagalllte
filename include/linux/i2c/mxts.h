@@ -824,8 +824,6 @@ struct mxt_data {
 	bool report_dummy_key;
 	bool ignore_menu_key;
 	bool ignore_back_key;
-	bool ignore_menu_key_by_back;
-	bool ignore_back_key_by_menu;
 #if defined(CONFIG_N1A_3G)
 	bool threshold_cmd_reversed;
 	int setdata;
